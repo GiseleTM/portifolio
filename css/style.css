@@ -1,0 +1,131 @@
+
+*{
+       margin: 0;
+       padding: 0;
+       box-sizing: border-box;
+}
+
+body{
+       background-color: #252E3B;
+}
+
+span{
+       color: #66FBF0;
+}
+
+.logo{  
+       display: flex;
+       justify-content: space-between;
+       list-style: none;
+       font-family: 'Poppins', sans-serif;
+       font-size: 28px;
+}
+
+nav{
+       display: flex;
+       list-style: none;
+       justify-content: space-between;
+       align-items: center;
+       width: 1110px;
+       margin: auto;
+       gap: 32px;
+}
+ul{
+       display: flex;
+       gap: 32px;
+       text-decoration: none;
+}
+
+h2, h3, p, a, menu{
+       font-family: 'Poppins', sans-serif;
+       font-size: 25px;
+       color: #FFFFFF;
+       text-decoration: none;
+}
+h3{
+        font-size: 55px;
+}
+h2{
+       font-size: 40px;
+}
+footer{
+       margin-left: 550px;
+       margin-bottom: 50px;
+}
+
+.botao{
+       border: solid #66FBF0;
+       border-radius: 35px;
+       margin: 20px 80px 40px 0;
+       text-align: center;
+       letter-spacing: 0.06em;
+       padding: 15px 32px;
+       display: inline-block;
+}
+
+.botao:hover{
+       color: #FF1B1B;
+       transition: all 300ms;
+}
+
+.vermelho:hover{
+       color: #FF1B1B;
+       transition: all 300ms;
+}
+
+.foto{
+       display: flex;
+       position: relative;
+       top: 22px;
+       left: 16px;
+ }
+
+ .texto1{
+       margin-top: 187px;
+       margin-left: 13px;
+       align-items: flex-start;
+ }
+
+ .foto2{
+       display: flex;
+       position: relative;
+       width: 1106px;
+       margin: 91px 141px 165px 12px;
+}
+
+.texto2{
+       margin-top: 169px;
+       margin-left: 125px;
+     
+}
+
+h1{
+       font-family: 'Poppins', sans-serif;
+       font-size: 96px;
+       color: #FFFFFF;
+       text-decoration: none;
+       font-weight: 600;
+       margin-bottom: 20px;
+       margin: 100px 100px 50px 260px;
+}
+
+.trabalhamos{
+       flex-direction: column-reverse;
+       align-content: center;
+       width: 794px;
+       margin-left: 353px;
+}
+
+.seta{
+       margin-left: 608px;
+       margin-bottom: 150px;
+}
+
+.rede_social{
+       display: flex;
+       align-items: center;
+       justify-content: center;
+       margin-left: 90px;
+       margin-bottom: 10px; 
+     
+}
